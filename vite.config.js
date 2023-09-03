@@ -9,7 +9,7 @@ import liveReload from 'vite-plugin-live-reload';
 function moveOutputPlugin() {
   return {
     name: 'move-output',
-    enforce: 'w04-layout-vite-official-website',
+    enforce: 'post',
     apply: 'build',
     async generateBundle(options, bundle) {
       for (const fileName in bundle) {
@@ -25,7 +25,7 @@ function moveOutputPlugin() {
 export default defineConfig({
   // base 的寫法：
   // base: '/Repository 的名稱/'
-  base: '/web-layout-training-vite/',
+  base: '/w04-layout-vite-official-website/',
   plugins: [
     liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './pages/**/*.html']),
     ViteEjsPlugin(),
