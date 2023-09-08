@@ -18,12 +18,9 @@ $Pad: 992px;
 $Mobile: 767px;
 
 //font
-$font-family-base: 'Noto Sans TC', sans-serif, serif !default;
-$font-family-en: 'Roboto', sans-serif, serif !default;
-
 $font-families: (
-    base: $font-family-base,
-    en: $font-family-en,
+    noto:       'Noto Sans TC',
+    roboto:     'Roboto',
 );
 
 

@@ -1,12 +1,12 @@
 .container {
     margin: 0 auto;
-    max-width: 1296px;
+    max-width: 1320px;      // 1296 + 12 + 12
     padding: 0 12px;
 
     @include rwd($Pad) {
-        max-width: 768px;
+        max-width: 720px;
     }
     @include rwd($Mobile) {
-        max-width: 375px;
+        max-width: 372px;
     }
 }
