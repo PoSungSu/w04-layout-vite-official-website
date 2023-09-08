@@ -1,3 +1,203 @@
-.index-title {
-  font-size: 100px;
+.service, .classic, .design, .customer, .contactUs {
+  padding: 80px 0;
 }
+.banner {
+  &Bg {
+    background-image: url(../images/home-header.png);
+    background-size: cover;   //「不變形」、「寬高等比例」、「在必要時局部裁切」
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  a {
+    display: inline-block;
+    width: 104px;
+    padding: 6px 12px;
+  }
+}
+.service {
+  &List {
+    li {
+      width: 24%;
+    }
+    img {
+      width: 100px;
+      display: block;
+      margin: 0 auto;
+    }
+    h4 {
+      padding: 24px 0 8px 0;
+      text-align: center;
+      color: map-get($theme-colors , secondary );
+      font-size: map-get($font-sizes , 6 );
+      font-weight: 700;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+}
+.classic {
+  h4 {
+    padding-top: 8px;
+    color: map-get($theme-colors , primary );
+    font-family:  map-get($font-families , en );
+    font-weight: 900;
+    font-style: italic;
+  }
+  img {
+    width: 416px;
+  }
+}
+.design {
+  &Bg {
+    background-image: url(../images/index-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  h4 {
+    padding: 8px 0;
+    border: 1px solid #DEE2E6;
+    background-color: white;
+    color: map-get($theme-colors , primary );
+    font-style: italic;
+  }
+}
+.contactUs {
+  section {
+    width: 636px;    
+    margin: 0 auto;
+  }
+  .form-submit {
+    width: 416px;
+  }
+}
+
+@include rwd($Pad) {
+  .banner {
+    &Bg {
+      background-image: url(../images/home-header-sm.png);
+    }
+  }
+  .service {
+    &List {
+      flex-wrap: wrap;
+    }
+    li {
+      width: 45.2%;
+    }
+    img {
+      width: 84px;
+    }
+
+    
+  }
+  .classic {
+    ul {
+      flex-direction: column;
+    }
+    img {
+      width: 336px;
+    }
+  }
+  .design {
+    &Bg {
+      background-image: url(../images/index-bg-md.png);
+    }
+    ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+    li {
+      width: 93.6%;
+    }
+  }
+  .customer {
+    ul {
+      flex-wrap: wrap;
+    }
+    li {
+      width: 44.3%;
+    }
+  }
+  .contactUs {
+    section {
+      width: 576px;
+    }
+    .form-submit {
+      width: 336px;
+    }
+  }
+}
+
+@include rwd($Mobile) {
+  .service, .classic, .design, .customer, .contactUs {
+    padding: 40px 0;
+  }
+  .banner {
+    padding: 144px 0px;
+    h2 {
+      font-size: 24px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+  }
+  .service {
+    h3 {
+      font-size: 24px;
+    }
+    ul {
+      justify-content: center;
+    }
+    li {
+      width: 99.2%;
+    }
+  }
+  .classic {
+    h3 {
+      font-size: 24px;
+    }
+    img {
+      width: 348px;
+    }
+  }
+  .design {
+    &Bg {
+      background-image: url(../images/index-bg-sm.png);
+    }
+    h3 {
+      font-size: 24px;
+    }
+    li {
+      width: 100%;
+    }
+    .DOUBLE {
+      content: url(../images/home-section4-1-sm.png);
+    }
+    .YOUTH {
+      content: url(../images/home-section4-2-sm.png);
+    }
+  }
+  .customer {
+    h3 {
+      font-size: 24px;
+    }
+    ul {
+      gap: 16px;
+    }
+    li {
+      width: 93.3%;
+    }
+  }
+  .contactUs {
+    section {
+      width: 348px;
+    }
+    .form-submit {
+      width: 100%;
+    }
+  }
+}
+

@@ -1,4 +1,41 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+@include rwd($Pad) {
+  .social {
+      gap: 16px;
+  }
+}
+
+@include rwd($Mobile) {
+  .footer {
+      padding: 24px 0;
+  }
+  .links {
+      padding-bottom: 24px;
+  }
+  .footer-nav {
+      display: none;
+  }
+  .contact {
+      a, span {
+          font-size: map-get($spacers , 4 );
+      }
+      span {
+          padding-right: 8px;
+      }
+  }
+  .social {
+      gap: 8px;
+      img {
+          width: 24px;
+      }
+  }
+  .copyright, .policies {
+      display: block;
+  }
+  .copyright {
+      padding-top: 16px;
+      a:not(:last-child), p {
+          padding-bottom: 8px;
+      }
+  }
+
 }

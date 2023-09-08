@@ -1,5 +1,27 @@
+//base
+@import './base/reset';
+@import './base/fontstyle';
+@import './base/variable';
+@import './base/base';
+
+//mixins
+@import './mixins/mixin-util';
+@import './mixins/mixin-rwd';
+
+//components
+@import './components/card';
+@import './components/container';
+@import './components/form';
+
+//utils
+@import './utils/utilities';
+@import './utils/api/api';
+
+
+
+//layout 共同框架，第一層
 @import './layout/header.scss';
 @import './layout/footer.scss';
 
-
 @import './pages/index.scss';
+@import './pages/faq.scss';

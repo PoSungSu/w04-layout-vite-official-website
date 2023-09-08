@@ -1,0 +1,28 @@
+.faq {
+    h2 {
+        border-left: 8px solid map-get($map: $theme-colors, $key: primary);
+    }
+    p {
+        margin-top: 8px;
+        text-align: justify;
+    }
+    li:not(:last-child) {
+        margin-bottom: 32px;
+    }
+}
+
+
+@include rwd($Pad) {
+    .faq {
+        ol {
+            width: 93.6%;
+        }
+    }
+}
+@include rwd($Mobile) {
+    .faq {
+        ol {
+            width: 100%;
+        }
+    }
+}
