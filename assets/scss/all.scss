@@ -23,7 +23,7 @@
 @import "../../node_modules/bootstrap/scss/utilities";
 
 //custom
-@import "/assets/scss/base/base";
+
 @import "../scss/utils/utilities";
 
 
@@ -66,3 +66,5 @@
 // Utilities
 @import "../../node_modules/bootstrap/scss/utilities/api";
 //==5.3版end==
+
+@import "/assets/scss/base/base";
