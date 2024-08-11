@@ -313,6 +313,7 @@ $dark:          $gray-900 !default;
 $theme-colors: (
   "primary":    $primary,
   "secondary":  $secondary,
+  "third":      $third,
   "success":    $success,
   "info":       $info,
   "warning":    $warning,
@@ -413,8 +414,9 @@ $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
 $spacer: 1rem !default;
 $spacers: (       //custom
   0: 0,
-  1: $spacer * .25,
-  2: $spacer * .5,
+  1: $spacer * .25,   //4px
+  6px: $spacer * .375,    //8px
+  2: $spacer * .5,    //8px
   // 3: $spacer,
   // 4: $spacer * 1.5,
   // 5: $spacer * 3,
@@ -436,6 +438,7 @@ $spacers: (       //custom
   20: $spacer * 5,    //80px
   24: $spacer * 6,    //96px
   32: $spacer * 8,    //128px
+  36: $spacer * 9,    //144px
   40: $spacer * 10,   //160px
 ) !default;
 // scss-docs-end spacer-variables-maps
@@ -1378,7 +1381,7 @@ $placeholder-opacity-min:           .2 !default;
 
 // Cards
 
-// scss-docs-start card-variables
+// scss-docs-start card-variables   //custom
 $card-spacer-y:                     $spacer !default;
 $card-spacer-x:                     $spacer !default;
 $card-title-spacer-y:               $spacer * .5 !default;

@@ -6,13 +6,6 @@
 //custom utils
 @import './utils/variables';
 
-//layout
-@import './layout/header.scss';
-@import './layout/footer.scss';
-
-//pages (盡量不要有)
-@import './pages/index';
-
 // @import "../../node_modules/bootstrap";  //★重要載入全部檔案
 //==5.3版start==
 // Configuration
@@ -25,7 +18,7 @@
 //custom
 
 @import "../scss/utils/utilities";
-
+@import "../scss/minixs/bg-img";
 
 // Layout & components
 @import "../../node_modules/bootstrap/scss/root";
@@ -68,3 +61,10 @@
 //==5.3版end==
 
 @import "/assets/scss/base/base";
+
+//layout
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+//pages (盡量不要有)
+@import './pages/index';
