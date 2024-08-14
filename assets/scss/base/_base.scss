@@ -7,7 +7,7 @@ ul, ol, li {
 a {
     text-decoration: none;
     transition: opacity 0.5s;
-    &:hover:not(.logo) {
+    &:hover:not(.logo, .btn) {
         color: white;
         opacity: 0.7;
     }
