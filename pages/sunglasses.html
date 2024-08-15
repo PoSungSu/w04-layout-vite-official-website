@@ -213,33 +213,7 @@
         </ul>
       </div>
 
-      <div class="container my-16">
-        <nav aria-label="Page navigation" class="d-flex justify-content-center">
-          <ul class="product-page pagination justify-content-center">
-            <li class="page-item flex-grow-2">
-              <a class="page-link roboto-regular py-3" href="#">上一頁</a>
-            </li>
-            <li class="page-item flex-grow-1">
-              <a class="page-link roboto-regular py-3" href="#">1</a>
-            </li>
-            <li class="page-item flex-grow-1">
-              <a class="page-link roboto-regular py-3 active" aria-current="page" href="#">2</a>
-            </li>
-            <li class="page-item flex-grow-1">
-              <a class="page-link roboto-regular py-3" href="#">3</a>
-            </li>
-            <li class="page-item flex-grow-1">
-              <a class="page-link roboto-regular py-3" href="#">4</a>
-            </li>
-            <li class="page-item flex-grow-1">
-              <a class="page-link roboto-regular py-3" href="#">5</a>
-            </li>
-            <li class="page-item flex-grow-2 disabled">
-              <a class="page-link roboto-regular py-3" href="#" tabindex="-1" aria-disabled="true">下一頁</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <%- include('./layout/page-nav'); -%>
     </main>
     <%- include('./layout/footer'); -%>
 

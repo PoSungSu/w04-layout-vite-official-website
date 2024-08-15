@@ -1,0 +1,58 @@
+.blog-cardList {
+    position: relative;
+    img {
+        height: 208px;
+    }
+    .card-textarea {
+        height: 144px;
+    }
+
+    @include media-breakpoint-up(md) {
+        .card-textarea::after {
+            content: "\22ef\22efmore";
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background: rgb(255, 255, 255);
+            cursor: pointer;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        img {
+            height: 400px;
+        }
+        .card-textarea {
+            height: 252px;
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+        }
+    }
+
+}
+
+
+// .blog-contnet-text {
+//     display: none;
+//     position: relative;
+//     @include media-breakpoint-up(md) {
+//         display: -webkit-box;
+//         -webkit-box-orient: vertical;
+//         -webkit-line-clamp: 6;
+//         overflow: hidden;
+
+//         &::after {
+//             content: "\22ef\22efmore";
+//             position: absolute;
+//             bottom: 0;
+//             right: 0;
+//             padding-left: 12px;
+//             background: rgb(255, 255, 255);
+//             cursor: pointer;
+//         }
+//     }
+// }
