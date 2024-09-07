@@ -30,7 +30,7 @@
 @import "../../node_modules/bootstrap/scss/images";
 @import "../../node_modules/bootstrap/scss/containers";
 @import "../../node_modules/bootstrap/scss/grid";
-@import "../../node_modules/bootstrap/scss/tables";
+// @import "../../node_modules/bootstrap/scss/tables";
 @import "../../node_modules/bootstrap/scss/forms";
 @import "../../node_modules/bootstrap/scss/buttons";
 @import "../../node_modules/bootstrap/scss/transitions";
@@ -53,7 +53,7 @@
 @import "../../node_modules/bootstrap/scss/popover";
 @import "../../node_modules/bootstrap/scss/carousel";
 @import "../../node_modules/bootstrap/scss/spinners";
-@import "../../node_modules/bootstrap/scss/offcanvas";
+// @import "../../node_modules/bootstrap/scss/offcanvas";
 @import "../../node_modules/bootstrap/scss/placeholders";
 
 // Helpers
@@ -77,10 +77,9 @@
 //layout
 @import './layout/header';
 @import './layout/glasses-nav';
-@import './layout/footer';
+// @import './layout/footer';
 
 //pages (盡量不要有)
 @import './pages/index';
 @import './pages/product';
 @import './pages/blog';
-@import './pages/blogInfo';

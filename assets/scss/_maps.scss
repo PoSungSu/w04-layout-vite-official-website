@@ -1,4 +1,5 @@
 $bg-config:(
+  // index
   banner:(
     class: 'banner',
     img:     url(/assets/images/home/home-header-sm.png),
@@ -9,36 +10,5 @@ $bg-config:(
     img:     url(/assets/images/home/index-bg-sm.png),
     img-md:  url(/assets/images/home/index-bg-md.png),
     img-lg:  url(/assets/images/home/index-bg.png),
-  ),
-  double:(
-    class: 'double',
-    img:     url(/assets/images/home/home-section4-1-sm.png),
-    img-md:  url(/assets/images/home/home-section4-1.png),
-  ),
-  youth:(
-    class: 'youth',
-    img:     url(/assets/images/home/home-section4-2-sm.png),
-    img-md:  url(/assets/images/home/home-section4-2.png),
-  ),
-  //product
-  product-header-1st:(
-    class: 'product-header-1st',
-    img:     url(/assets/images/product/product-header-sm-1.png),
-    img-lg:  url(/assets/images/product/product-header-1.png),
-  ),
-  product-header-2nd:(
-    class: 'product-header-2nd',
-    img:     url(/assets/images/product/product-header-sm-2.png),
-    img-lg:  url(/assets/images/product/product-header-2.png),
-  ),
-  product-header-3rd:(
-    class: 'product-header-3rd',
-    img:     url(/assets/images/product/product-header-sm-3.png),
-    img-lg:  url(/assets/images/product/product-header-3.png),
-  ),
-  product-header-4th:(
-    class: 'product-header-4th',
-    img:     url(/assets/images/product/product-header-sm-4.png),
-    img-lg:  url(/assets/images/product/product-header-4.png),
   ),
 );

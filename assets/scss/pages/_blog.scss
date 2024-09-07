@@ -32,27 +32,4 @@
             }
         }
     }
-
 }
-
-
-// .blog-contnet-text {
-//     display: none;
-//     position: relative;
-//     @include media-breakpoint-up(md) {
-//         display: -webkit-box;
-//         -webkit-box-orient: vertical;
-//         -webkit-line-clamp: 6;
-//         overflow: hidden;
-
-//         &::after {
-//             content: "\22ef\22efmore";
-//             position: absolute;
-//             bottom: 0;
-//             right: 0;
-//             padding-left: 12px;
-//             background: rgb(255, 255, 255);
-//             cursor: pointer;
-//         }
-//     }
-// }
