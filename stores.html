@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>stores</title>
-    <script type="module" crossorigin src="/w04-layout-vite-official-website/assets/main-7222e148.js"></script>
-    <link rel="stylesheet" href="/w04-layout-vite-official-website/assets/main-96e09443.css">
+    <script type="module" crossorigin src="/w04-layout-vite-official-website/assets/main-e88a5276.js"></script>
+    <link rel="stylesheet" href="/w04-layout-vite-official-website/assets/main-e2dd15a5.css">
   </head>
   <body>
     <header class="bg-primary">
@@ -15,7 +15,7 @@
             <a class="logo navbar-brand"  style="height: 80px;" href="./index.html">
                 <img class="img-fluid" style="width: 80px;" src="/w04-layout-vite-official-website/assets/logo-white-5423463a.png" alt="logo">
             </a>
-            <ul class="navbar-nav flex-row align-items-center row row-cols-2 text-center row-cols-md-auto fs-md-5 gx-md-16">
+            <ul class="navbar-nav flex-row align-items-center row row-cols-2 text-center row-cols-md-auto fs-md-5 g-md-16">
                 <li class="nav-item col border border-white border-md-0">
                   <a class="nav-link px-0" aria-current="page" href="product.html">系列鏡框</a>
                 </li>
@@ -38,7 +38,7 @@
 
       <div class="d-flex gap-2 align-items-center mb-6 mb-md-10">
         <p class="">選擇地區</p>
-        <div class="dropdown flex-grow-1">
+        <!-- <div class="dropdown flex-grow-1">
           <a class="btn btn-outline-gray-400 dropdown-toggle rounded-0 w-100 d-flex justify-content-between align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="max-width: 304px;">
             台北市
           </a>
@@ -47,7 +47,16 @@
             <li><a class="dropdown-item" href="#">台中市</a></li>
             <li><a class="dropdown-item" href="#">高雄市</a></li>
           </ul>
-        </div>
+        </div> -->
+
+        <form action="">
+          <select class="form-select rounded-0" style="min-width: 304px;" aria-label="Default select example">
+            <option selected>台北市</option>
+            <option value="1">台中市</option>
+            <option value="2">高雄市</option>
+          </select>
+        </form>
+        
       </div>
 
       <ul class="row g-6 row-cols-1 row-cols-md-2 row-cols-lg-3">

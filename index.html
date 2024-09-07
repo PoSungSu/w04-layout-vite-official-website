@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
-    <script type="module" crossorigin src="/w04-layout-vite-official-website/assets/main-7222e148.js"></script>
-    <link rel="stylesheet" href="/w04-layout-vite-official-website/assets/main-96e09443.css">
+    <script type="module" crossorigin src="/w04-layout-vite-official-website/assets/main-e88a5276.js"></script>
+    <link rel="stylesheet" href="/w04-layout-vite-official-website/assets/main-e2dd15a5.css">
   </head>
   <body>
     <header class="bg-primary">
@@ -15,7 +15,7 @@
             <a class="logo navbar-brand"  style="height: 80px;" href="./index.html">
                 <img class="img-fluid" style="width: 80px;" src="/w04-layout-vite-official-website/assets/logo-white-5423463a.png" alt="logo">
             </a>
-            <ul class="navbar-nav flex-row align-items-center row row-cols-2 text-center row-cols-md-auto fs-md-5 gx-md-16">
+            <ul class="navbar-nav flex-row align-items-center row row-cols-2 text-center row-cols-md-auto fs-md-5 g-md-16">
                 <li class="nav-item col border border-white border-md-0">
                   <a class="nav-link px-0" aria-current="page" href="product.html">系列鏡框</a>
                 </li>
@@ -131,7 +131,10 @@
               <div class="card border-0" style="--bs-border-radius: 0rem;">
                 <div class="card-body p-0">
                   <a href="#">
-                    <div class="bg-double"></div>
+                    <picture>
+                      <source media="(min-width: 768px)" srcset="/w04-layout-vite-official-website/assets/home-section4-1-59894574.png ">
+                      <img class="img-fluid object-fit-cover w-100" style="height: 240px;" src="/w04-layout-vite-official-website/assets/home-section4-1-sm-a801b136.png" alt="DOUBLE A+">
+                    </picture>
                     <h4 class="fs-12 roboto-black-italic py-2">DOUBLE A+</h4>
                   </a>
                 </div>
@@ -141,7 +144,10 @@
               <div class="card border-0" style="--bs-border-radius: 0rem;">
                 <div class="card-body p-0">
                   <a href="#">
-                    <div class="bg-youth"></div>
+                    <picture>
+                      <source media="(min-width: 768px)" srcset="/w04-layout-vite-official-website/assets/home-section4-2-daaeb8bc.png ">
+                      <img class="img-fluid object-fit-cover w-100" style="height: 240px;" src="/w04-layout-vite-official-website/assets/home-section4-2-sm-2f57b61a.png" alt="YOUTH">
+                    </picture>
                     <h4 class="fs-12 roboto-black-italic py-2">YOUTH</h4>
                   </a>
                 </div>
@@ -164,7 +170,7 @@
                         <h5 class="card-title">Jessy</h5>
                         <p class="card-text fw-medium">眼鏡品質優良，下次還會想來這邊購買！</p>
                       </div>
-                      <p class="card-text"><small style="color: #707070">2021/06/20</small></p>
+                      <small class="card-text" style="color: #707070"><time datetime="2021-06-20">2021/06/20</time></small>
                     </div> 
                   </div>
                 </li>
@@ -176,7 +182,7 @@
                           <h5 class="card-title">凱倫</h5>
                           <p class="card-text fw-medium">做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
                         </div>
-                        <p class="card-text"><small style="color: #707070">2021/04/18</small></p>
+                        <small class="card-text" style="color: #707070"><time datetime="2021-04-18">2021/04/18</time></small>
                       </div>
                   </div>
                 </li>
@@ -188,7 +194,7 @@
                           <h5 class="card-title">悠悠</h5>
                           <p class="card-text fw-medium">謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
                         </div>
-                        <p class="card-text"><small style="color: #707070">2020/12/25</small></p>                    
+                        <small class="card-text" style="color: #707070"><time datetime="2021-12-25">2020/12/25</time></small>
                       </div>
                   </div>
                 </li>
@@ -200,7 +206,7 @@
                         <h5 class="card-title">Kyuan</h5>
                         <p class="card-text fw-medium">服務很好，品質沒有任何問題，非常喜歡。</p>
                       </div>
-                      <p class="card-text"><small style="color: #707070">2020/10/31</small></p>                    
+                      <small class="card-text" style="color: #707070"><time datetime="2021-12-25">2020/10/31</time></small>
                     </div>
                   </div>
                 </li>
@@ -228,7 +234,7 @@
               </div>
               <div class="col col-md-10 col-lg-6">
                   <label for="inputText" class="form-label">意見反應</label>
-                  <textarea name="inputText" class="form-control bg-third border-black rounded-0" id="" cols="10" rows="8" required placeholder="請輸入您的寶貴意見" onfocus="this.placeholder=''" onblur="this.placeholder='請輸入您的寶貴意見'"></textarea>
+                  <textarea name="inputText" class="form-control bg-third border-black rounded-0" id="inputText" cols="10" rows="8" required placeholder="請輸入您的寶貴意見" onfocus="this.placeholder=''" onblur="this.placeholder='請輸入您的寶貴意見'"></textarea>
               </div>
               <div class="form-check col col-md-10 col-lg-6 ps-10 mb-2 mb-md-8">
                 <input class="form-check-input border-black border-2 rounded-0" type="checkbox" value="" id="flexCheckDefault" style="--bs-form-check-bg: $bg-third">
